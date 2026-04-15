@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aetheris (AETH) - Official</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.85)), 
+                  url('https://20lab.app/_next/image/?url=https%3A%2F%2Fipfs.filebase.io%2Fipfs%2FQmNnSFGkqmgPgacivhT7MS3YopRXZ96QiuAc146LdfVgkh&w=1920&q=75');
+      background-size: cover;
+      background-position: center;
+    }
+    .neon { text-shadow: 0 0 40px #22d3ee, 0 0 80px #22d3ee; }
+  </style>
+</head>
+<body class="bg-black text-white">
+
+  <!-- Hero Section -->
+  <section class="hero min-h-screen flex items-center justify-center text-center px-6">
+    <div class="max-w-5xl mx-auto">
+      <div class="mb-10">
+        <img src="https://20lab.app/_next/image/?url=https%3A%2F%2Fipfs.filebase.io%2Fipfs%2FQmUn3D4jGSd6i8dozdnsxdfeECdKj3yzLr1S9Umfzfc8wo&w=640&q=75" 
+             alt="Aetheris Logo" 
+             class="mx-auto w-64 md:w-80 rounded-full border-4 border-cyan-400 shadow-2xl">
+      </div>
+
+      <h1 class="text-6xl md:text-8xl font-bold neon mb-4">AETHERIS</h1>
+      <p class="text-5xl text-cyan-400 mb-12">AETH</p>
+
+      <p class="text-2xl md:text-3xl max-w-4xl mx-auto mb-16 leading-relaxed">
+        The next-generation deflationary token on Ethereum.<br>
+        Built to reward holders through automatic burns and growing liquidity.
+      </p>
+
+      <div class="flex flex-col sm:flex-row gap-6 justify-center max-w-2xl mx-auto">
+        <a href="https://app.uniswap.org/#/swap?outputCurrency=0xD048b83d696d92f49CA3b0372033dF67875E49eB" 
+           target="_blank"
+           class="bg-gradient-to-r from-cyan-400 to-cyan-500 hover:from-cyan-300 hover:to-cyan-400 text-black font-bold text-2xl py-8 px-16 rounded-3xl transition transform hover:scale-105">
+          🚀 BUY AETH NOW
+        </a>
+
+        <a href="https://dexscreener.com/ethereum/0xf54DAf09b5b0bD239f0951f87887d6021B9798A3" 
+           target="_blank"
+           class="border-2 border-white hover:bg-white hover:text-black font-bold text-2xl py-8 px-16 rounded-3xl transition">
+          📈 LIVE CHART
+        </a>
+      </div>
+
+      <div class="mt-20 bg-zinc-900/80 border border-cyan-400/30 rounded-3xl p-8 max-w-xl mx-auto">
+        <p class="text-gray-400 mb-3">Contract Address</p>
+        <div onclick="navigator.clipboard.writeText('0xD048b83d696d92f49CA3b0372033dF67875E49eB'); alert('✅ Contract address copied!')" 
+             class="bg-black border border-cyan-400/50 hover:border-cyan-400 p-6 rounded-2xl text-cyan-300 font-mono text-lg break-all cursor-pointer transition">
+          0xD048b83d696d92f49CA3b0372033dF67875E49eB
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Community -->
+  <section class="py-24 bg-zinc-950">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h2 class="text-5xl font-bold mb-12">Join the Aetheris Community</h2>
+      
+      <div class="flex flex-wrap justify-center gap-8">
+        <a href="https://twitter.com/AetherisAETH" target="_blank" 
+           class="bg-zinc-900 hover:bg-zinc-800 px-12 py-7 rounded-3xl text-xl font-medium border border-cyan-400/30 hover:border-cyan-400 transition">
+          𝕏 Twitter @AetherisAETH
+        </a>
+        
+        <a href="https://t.me/+O0Q644xnCVQ1Mjg6" target="_blank" 
+           class="bg-zinc-900 hover:bg-zinc-800 px-12 py-7 rounded-3xl text-xl font-medium border border-cyan-400/30 hover:border-cyan-400 transition">
+          📢 Official Channel
+        </a>
+        
+        <a href="https://t.me/+dFYRBjAm42czNjAy" target="_blank" 
+           class="bg-zinc-900 hover:bg-zinc-800 px-12 py-7 rounded-3xl text-xl font-medium border border-cyan-400/30 hover:border-cyan-400 transition">
+          💬 Community Group
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black border-t border-zinc-800 py-12">
+    <div class="max-w-5xl mx-auto px-6 text-center text-gray-500 text-sm">
+      <p>© 2026 Aetheris (AETH). All Rights Reserved.</p>
+      <p class="mt-6 text-xs">High-risk investment. Always do your own research (DYOR).</p>
+    </div>
+  </footer>
+
+</body>
+</html>
