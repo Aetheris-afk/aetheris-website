@@ -7,7 +7,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     .hero {
-      background: linear-gradient(rgba(0,0,0,0.78), rgba(0,0,0,0.92)), 
+      background: linear-gradient(rgba(0,0,0,0.78), rgba(0,0,0,0.92)),
                   url('https://20lab.app/_next/image/?url=https%3A%2F%2Fipfs.filebase.io%2Fipfs%2FQmNnSFGkqmgPgacivhT7MS3YopRXZ96QiuAc146LdfVgkh&w=1920&q=75');
       background-size: cover;
       background-position: center;
@@ -21,35 +21,34 @@
   <section class="hero min-h-screen flex items-center justify-center text-center px-6">
     <div class="max-w-5xl mx-auto">
       <div class="mb-12">
-        <img src="https://20lab.app/_next/image/?url=https%3A%2F%2Fipfs.filebase.io%2Fipfs%2FQmUn3D4jGSd6i8dozdnsxdfeECdKj3yzLr1S9Umfzfc8wo&w=640&q=75" 
-             alt="Aetheris Logo" 
+        <img src="https://20lab.app/_next/image/?url=https%3A%2F%2Fipfs.filebase.io%2Fipfs%2FQmUn3D4jGSd6i8dozdnsxdfeECdKj3yzLr1S9Umfzfc8wo&w=640&q=75"
+             alt="Aetheris Logo"
              class="mx-auto w-80 rounded-full border-4 border-cyan-400 shadow-2xl">
       </div>
-
       <h1 class="text-7xl md:text-8xl font-bold neon tracking-tighter mb-6">AETHERIS</h1>
       <p class="text-5xl text-cyan-400 mb-16">AETH</p>
-
       <p class="text-2xl md:text-3xl max-w-3xl mx-auto mb-20 leading-relaxed text-gray-100">
-        A deflationary ERC-20 token on Ethereum engineered for long-term value creation 
-        through automated token burns and liquidity reinforcement.
+        A deflationary ERC-20 token on Ethereum engineered for long-term value creation through automated token burns and liquidity reinforcement.
       </p>
 
+      <p class="text-emerald-400 text-lg font-medium mb-10">🔒 Liquidity Locked until December 2030</p>
+
       <div class="flex flex-col sm:flex-row gap-6 justify-center max-w-xl mx-auto">
-        <a href="https://app.uniswap.org/#/swap?outputCurrency=0xD048b83d696d92f49CA3b0372033dF67875E49eB" 
+        <a href="https://app.uniswap.org/#/swap?outputCurrency=0xD048b83d696d92f49CA3b0372033dF67875E49eB"
            target="_blank"
            class="bg-white text-black font-semibold text-xl py-7 px-16 rounded-2xl hover:bg-cyan-300 transition-all">
           BUY AETH
         </a>
-        <a href="https://dexscreener.com/ethereum/0xf54DAf09b5b0bD239f0951f87887d6021B9798A3" 
+        <a href="https://dexscreener.com/ethereum/0xf54DAf09b5b0bD239f0951f87887d6021B9798A3"
            target="_blank"
            class="border-2 border-white font-semibold text-xl py-7 px-16 rounded-2xl hover:bg-white hover:text-black transition-all">
           LIVE CHART
         </a>
       </div>
 
-      <div class="mt-20">
+      <div class="mt-16">
         <p class="text-sm text-gray-400 tracking-widest mb-2">CONTRACT ADDRESS</p>
-        <div onclick="navigator.clipboard.writeText('0xD048b83d696d92f49CA3b0372033dF67875E49eB'); alert('Contract address copied to clipboard')" 
+        <div onclick="navigator.clipboard.writeText('0xD048b83d696d92f49CA3b0372033dF67875E49eB'); alert('✅ Contract address copied to clipboard!')"
              class="inline-block bg-zinc-900 border border-cyan-400/40 hover:border-cyan-400 px-10 py-5 rounded-2xl font-mono text-sm cursor-pointer transition">
           0xD048b83d696d92f49CA3b0372033dF67875E49eB
         </div>
@@ -57,7 +56,36 @@
     </div>
   </section>
 
-  <!-- Why AETH -->
+  <!-- Token Information -->
+  <section class="py-16 bg-black border-t border-zinc-800">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-4xl font-semibold text-center mb-12 text-white">Token Information</h2>
+      <div class="grid md:grid-cols-2 gap-8 text-center md:text-left">
+        <div>
+          <p class="text-gray-400 mb-2">Contract Address</p>
+          <p class="font-mono text-cyan-400 break-all">0xD048b83d696d92f49CA3b0372033dF67875E49eB</p>
+        </div>
+        <div>
+          <p class="text-gray-400 mb-2">Blockchain</p>
+          <p class="text-white">Ethereum Mainnet</p>
+        </div>
+        <div>
+          <p class="text-gray-400 mb-2">Total Supply</p>
+          <p class="text-white">10,000,000,000 AETH</p>
+        </div>
+        <div>
+          <p class="text-gray-400 mb-2">Liquidity Status</p>
+          <p class="text-emerald-400">Locked until December 2030</p>
+        </div>
+        <div>
+          <p class="text-gray-400 mb-2">Contact Email</p>
+          <p class="text-cyan-400">aetherisaeth@gmail.com</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Aetheris -->
   <section class="py-28 bg-black">
     <div class="max-w-6xl mx-auto px-6">
       <h2 class="text-5xl font-semibold text-center mb-20">Why Aetheris</h2>
@@ -81,12 +109,34 @@
     </div>
   </section>
 
+  <!-- Ownership Status -->
+  <section class="py-20 bg-zinc-900 border-t border-b border-zinc-800">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h2 class="text-4xl font-semibold mb-8 text-white">Ownership Status</h2>
+      <div class="bg-black/50 p-10 rounded-3xl border border-cyan-400/30">
+        <p class="text-xl text-gray-300 leading-relaxed">
+          Ownership has <strong>not been renounced yet</strong>.<br><br>
+          We have decided to keep ownership for now to ensure the project remains stable during the early launch phase. 
+          This allows us to quickly fix any unexpected issues, adjust parameters if necessary, and protect the community from potential exploits.
+        </p>
+        <p class="mt-10 text-lg text-emerald-400 font-medium">
+          Once the token reaches a stable and mature stage with sufficient liquidity and community growth, 
+          we will renounce ownership permanently to make the contract fully decentralized.
+        </p>
+        <p class="mt-8 text-sm text-gray-500">
+          All updates regarding ownership will be announced transparently on our official channels.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Roadmap, FAQ, Privacy, Community, Footer rămân la fel ca înainte -->
+
   <!-- Roadmap -->
   <section class="py-28 bg-zinc-950">
     <div class="max-w-5xl mx-auto px-6">
       <h2 class="text-5xl font-semibold text-center mb-20">Roadmap</h2>
       <div class="grid md:grid-cols-3 gap-10">
-
         <div class="bg-zinc-900 p-8 rounded-3xl border border-cyan-400/20">
           <div class="text-cyan-400 font-semibold mb-8 text-xl">Q2</div>
           <ul class="space-y-5 text-gray-300">
@@ -97,7 +147,6 @@
             <li class="flex items-start gap-3">✓ Community Channels Establishment</li>
           </ul>
         </div>
-
         <div class="bg-zinc-900 p-8 rounded-3xl border border-cyan-400/20">
           <div class="text-cyan-400 font-semibold mb-8 text-xl">Q3</div>
           <ul class="space-y-5 text-gray-300">
@@ -108,7 +157,6 @@
             <li class="flex items-start gap-3">• Transparency Reports & Smart Contract Audits</li>
           </ul>
         </div>
-
         <div class="bg-zinc-900 p-8 rounded-3xl border border-cyan-400/20">
           <div class="text-cyan-400 font-semibold mb-8 text-xl">Q4</div>
           <ul class="space-y-5 text-gray-300">
@@ -119,7 +167,6 @@
             <li class="flex items-start gap-3">• Exploration of Governance Model</li>
           </ul>
         </div>
-
       </div>
     </div>
   </section>
@@ -158,21 +205,15 @@
     <div class="max-w-4xl mx-auto px-6 text-gray-400 text-sm leading-relaxed">
       <h2 class="text-4xl font-semibold text-white mb-12">Privacy Policy</h2>
       <p class="mb-8">Last updated: April 17, 2026</p>
-
       <p class="mb-8">This Privacy Policy governs the manner in which the Aetheris (AETH) website collects, uses, maintains, and discloses information collected from users.</p>
-
       <h3 class="text-white font-semibold mt-10 mb-4">1. Information We Collect</h3>
       <p class="mb-6">We do not collect any personally identifiable information from visitors to this website. The site is purely informational and does not require registration, login, or submission of personal data.</p>
-
       <h3 class="text-white font-semibold mt-10 mb-4">2. Cookies and Analytics</h3>
       <p class="mb-6">We may use essential cookies and anonymized analytics tools to monitor general traffic and improve user experience. No personal data is collected or stored through these tools.</p>
-
       <h3 class="text-white font-semibold mt-10 mb-4">3. Third-Party Links and Services</h3>
       <p class="mb-6">This website contains links to external platforms including Uniswap, DexScreener, Twitter (X), and Telegram. We are not responsible for the privacy practices or content of these third-party services. Users are encouraged to review their respective privacy policies before interacting with them.</p>
-
       <h3 class="text-white font-semibold mt-10 mb-4">4. Changes to This Privacy Policy</h3>
       <p class="mb-6">We reserve the right to update or modify this Privacy Policy at any time. Any changes will be posted on this page with an updated revision date. Continued use of the website after changes constitutes acceptance of the revised policy.</p>
-
       <div class="mt-16 pt-12 border-t border-zinc-800 text-xs">
         <p>Aetheris (AETH) is a decentralized cryptocurrency project. This website is provided for informational purposes only and does not constitute financial, investment, legal, or tax advice. Cryptocurrency investments involve substantial risk of loss. Always conduct your own research (DYOR) before making any investment decisions.</p>
       </div>
@@ -184,19 +225,19 @@
     <div class="max-w-4xl mx-auto px-6 text-center">
       <h2 class="text-5xl font-semibold mb-8">Join the Community</h2>
       <p class="text-xl text-gray-400 mb-12">Stay informed and be part of the AETH ecosystem</p>
-      
+     
       <div class="flex flex-wrap justify-center gap-6">
-        <a href="https://twitter.com/AetherisAETH" target="_blank" 
-           class="bg-zinc-900 hover:bg-zinc-800 px-14 py-7 rounded-3xl text-xl font-medium border border-cyan-400/30 hover:border-cyan-400 transition">
+        <a href="https://twitter.com/AetherisAETH" target="_blank" class="bg-zinc-900 hover:bg-zinc-800 px-14 py-7 rounded-3xl text-xl font-medium border border-cyan-400/30 hover:border-cyan-400 transition">
           𝕏 Twitter @AetherisAETH
         </a>
-        <a href="https://t.me/+O0Q644xnCVQ1Mjg6" target="_blank" 
-           class="bg-zinc-900 hover:bg-zinc-800 px-14 py-7 rounded-3xl text-xl font-medium border border-cyan-400/30 hover:border-cyan-400 transition">
+        <a href="https://t.me/+O0Q644xnCVQ1Mjg6" target="_blank" class="bg-zinc-900 hover:bg-zinc-800 px-14 py-7 rounded-3xl text-xl font-medium border border-cyan-400/30 hover:border-cyan-400 transition">
           📢 Official Channel
         </a>
-        <a href="https://t.me/+dFYRBjAm42czNjAy" target="_blank" 
-           class="bg-zinc-900 hover:bg-zinc-800 px-14 py-7 rounded-3xl text-xl font-medium border border-cyan-400/30 hover:border-cyan-400 transition">
+        <a href="https://t.me/+dFYRBjAm42czNjAy" target="_blank" class="bg-zinc-900 hover:bg-zinc-800 px-14 py-7 rounded-3xl text-xl font-medium border border-cyan-400/30 hover:border-cyan-400 transition">
           💬 Community Group
+        </a>
+        <a href="https://etherscan.io/token/0xD048b83d696d92f49CA3b0372033dF67875E49eB" target="_blank" class="bg-zinc-900 hover:bg-zinc-800 px-14 py-7 rounded-3xl text-xl font-medium border border-cyan-400/30 hover:border-cyan-400 transition">
+          🔍 Verify Contract on Etherscan
         </a>
       </div>
     </div>
@@ -210,9 +251,8 @@
         <a href="#" class="hover:text-white transition">Privacy Policy</a>
         <a href="#" class="hover:text-white transition">Disclaimer</a>
       </div>
-      <p class="mt-10 text-xs">High-risk decentralized project. Cryptocurrency investments carry substantial risk of loss. Always do your own research before investing.</p>
+      <p class="mt-6 text-xs text-cyan-400">Contact: aetherisaeth@gmail.com</p>
     </div>
   </footer>
-
 </body>
 </html>
